@@ -1,8 +1,7 @@
 import express from 'express'
 import 'dotenv/config'
 
-async function main(){
-    
+async function main(): Promise<void>{
 
     // Read .env Variable -> process.env.SECRET_KEY
 
